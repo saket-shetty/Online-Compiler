@@ -10,7 +10,7 @@ const { execGoCode } = require('./code_modules/execGo');
 dotenv.config()
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 8080;
 
 // Body parsing middleware
 app.use(express.json());
